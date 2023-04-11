@@ -21,7 +21,7 @@ numpy 1.21 \
 python 3.7
 
 ## Remarks
-This cite the following paper when using the codes in this repo
+Please cite the following paper when using the codes in this repo
 
 @article{he2023autonomous, \
   title={Autonomous anomaly detection on traffic flow time series with reinforcement learning}, \
