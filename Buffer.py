@@ -1,6 +1,9 @@
 import numpy as np
 
 class ReplayBuffer(object):
+    '''
+    Replay buffer to store the most current max_size of tuples (state, action, reward, next_state)
+    '''
     def __init__(self, max_size, input_steps, input_dims, n_actions):
         self.mem_size = max_size
         self.mem_cntr = 0

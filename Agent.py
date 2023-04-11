@@ -4,6 +4,9 @@ from DQN import DeepQNetwork
 from Buffer import ReplayBuffer
 
 class DQNAgent(object):
+    '''
+    the implementation of Deep Q Learning
+    '''
     def __init__(self, gamma, epsilon, lr, n_actions, input_dims, input_steps, hidden_dims,
                  n_layers, mem_size, batch_size, eps_min=0.01, eps_dec=1e-4,
                  replace=500, algo=None, env_name=None, chkpt_dir='tmp/dqn'):

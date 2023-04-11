@@ -3,6 +3,7 @@ import numpy as np
 import os
 import sklearn.preprocessing
 
+# define global variables for environment
 NOT_ANOMALY = 0
 ANOMALY = 1
 action_space = [NOT_ANOMALY, ANOMALY]

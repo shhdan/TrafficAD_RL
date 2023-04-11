@@ -1,5 +1,3 @@
-import numpy as np
-import torch
 import torch as T
 import torch.nn as nn
 import torch.optim as optim
@@ -7,6 +5,10 @@ import os
 
 
 class DeepQNetwork(nn.Module):
+    '''
+    The DeepQNetwork is built by a two-layer LSTM and a linear layer;
+    it takes as input a state which formed by a N_STEPS of three-dimentional vectors and output an action 0/1
+    '''
     def __init__(self, lr, input_steps, input_dims, n_actions, hidden_dims, n_layers, name, chkpt_dir):
         super(DeepQNetwork, self).__init__()
         self.input_steps = input_steps
