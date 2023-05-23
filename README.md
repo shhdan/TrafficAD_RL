@@ -1,4 +1,4 @@
-# TrafficAD_RL
+# Autonomous anomaly detection on traffic flow time series with reinforcement learning
 
 This study develops an autonomous artificial intelligence (AI) agent to detect anomalies in traffic flow time series data, 
 which can learn anomaly patterns from data without supervision, requiring no ground-truth labels for model training or knowledge
